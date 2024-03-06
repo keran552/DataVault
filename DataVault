@@ -1,6 +1,10 @@
+
 The Data Vault modeling technique is a hybrid approach designed to enable scalable, flexible, and resilient data warehouse architectures. It's based on three primary types of entities:
 
-Hubs: Represent business concepts or objects, like Customer or Product. Hubs are identified by a unique key.
-Links: Represent associations or relationships between Hubs. They are used to connect two or more Hubs together.
-Satellites: Store the descriptive attributes or the historical changes of the Hubs and Links. Each Satellite is connected to one Hub or Link.
+1. **Hubs**: Represent business concepts or objects, like Customer or Product. Hubs are identified by a unique key.
+2. **Links**: Represent associations or relationships between Hubs. They are used to connect two or more Hubs together.
+3. **Satellites**: Store the descriptive attributes or the historical changes of the Hubs and Links. Each Satellite is connected to one Hub or Link.
+
 This approach separates the business keys, relationships, and descriptive attributes into distinct structures, which promotes agility and eases the integration of disparate data sources.
+
+Can you share your understanding of these components or any initial questions before we proceed to the next step?
